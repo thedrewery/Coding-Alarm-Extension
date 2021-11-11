@@ -1,0 +1,17 @@
+﻿{
+  "name": "Coding Break",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Reminds you to take a break from coding",
+  "permissions": [
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "event.js"
+  },
+  "action": {
+    "default_icon": "noComp.png",
+    "default_title": "Take A Break!",
+    "default_popup": "popup.html"
+  }
+}
